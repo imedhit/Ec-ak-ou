@@ -1,0 +1,91 @@
+Redesign the website completely while keeping all existing core functionality working. The current UI feels too generic, like a standard futuristic dashboard. I want a much more experimental, graphic, sparse and editorial visual language inspired by the visual qualities of the reference screenshots I shared — NOT a direct copy of them.
+
+Core visual direction
+Keep the palette strictly electric blue + white + very deep navy/black.
+Use high-contrast cobalt/electric blue, glowing blue gradients, occasional bright white, and deep near-black backgrounds.
+Avoid soft generic cards, pastel backgrounds, standard SaaS panels, excessive rounded rectangles, and dashboard aesthetics.
+Make the interface feel like an experimental digital communication system / speculative artefact interface.
+Use asymmetry, large empty spaces, cropped oversized typography, thin lines, orbital forms, signal trails, concentric circles, waveform-like marks, strange graphic geometry and abstract acoustic visualisations.
+The visual elements should feel intentionally designed and graphic, not like generic AI-generated futuristic UI.
+Use the references for mood only: dark immersive space, electric blue light, experimental typography, abstract visual systems, strange floating forms and editorial composition.
+Title
+
+Change the main headline from:
+
+“Speak. Become unrecognisable.”
+
+to:
+
+“SPEAK HUMAN.”
+
+Make this the dominant visual statement. Large, bold, editorial and possibly broken across lines in an interesting asymmetric composition. Keep the meaning ambiguous and intriguing.
+
+Artefact branding
+
+Keep Ec(ak)ou as the project/artefact name. Treat it as an unusual visual wordmark rather than ordinary branding. Use the parentheses deliberately.
+
+Interaction
+
+Make it immediately obvious what a visitor should do without relying on numbered instructions.
+
+The microphone/listening area should be the visual focal point. Use a clear but visually integrated instruction such as:
+
+SPEAK → LISTEN → SIGNAL
+
+or simply:
+
+SPEAK INTO THE VOID
+
+The user should instantly understand that they press the microphone/start button and speak one of the known words.
+
+Make the listening state visually dramatic: electric blue pulse, expanding rings, signal distortion or waveform behaviour.
+
+Sound vocabulary
+
+Keep:
+
+HELLO → vocal swell
+DANGER → triple click
+LEAVE → falling whistle
+
+Change SAFE because it currently sounds too similar to HELLO.
+
+Make:
+
+SAFE → a short, bright ascending chime / two-note crystalline tone
+
+It should feel clearly different from the warm sustained HELLO sound and instantly recognisable.
+
+NEW: Export the generated signal audio
+
+Add a way to export/download each generated non-verbal audio signal as an audio file.
+
+After a command is recognised and its corresponding sound is generated, provide a visually integrated EXPORT SIGNAL or SAVE SIGNAL button. This should allow the user to download the actual generated sound as a .wav audio file.
+
+The downloaded files should be clearly named:
+
+Ec-ak-ou_hello.wav
+Ec-ak-ou_danger.wav
+Ec-ak-ou_safe.wav
+Ec-ak-ou_leave.wav
+
+The export button should not look like a generic UI download button. Integrate it into the visual language of the website, perhaps as a small technical label, arrow, or signal-capture action.
+
+Important: the downloaded audio must contain the actual sound currently played by the browser, not a placeholder or silent file. The existing Web Audio-generated sounds should remain the source.
+
+Also, ideally add an option to play and export each of the four signals individually from the signal vocabulary area, without needing to speak the command every time. This will help me test and collect the four audio signals later.
+
+Important
+Do not change the core speech-recognition functionality.
+Keep the four spoken command mappings working.
+Preserve the existing speech recognition and audio generation.
+Prioritise a strong visual composition over a conventional dashboard layout.
+The website should feel like a designed digital world around Ec(ak)ou, not a standard product landing page.
+Do not use generic cards or turn this into a conventional dashboard.
+
+After making the changes, test that:
+
+all four spoken commands are still recognised,
+SAFE sounds distinctly different from HELLO,
+each generated sound can actually be downloaded as a working WAV file,
+the downloaded files contain audible audio and are not silent.

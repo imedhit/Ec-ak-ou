@@ -1,0 +1,10 @@
+{
+  "name": "Ec(ak)ou",
+  "description": "A browser-based acoustic communication prototype that translates spoken cues into motion spectrogram video displays and synchronized non-verbal acoustic signals.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

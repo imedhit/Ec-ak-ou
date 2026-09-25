@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Nonverbal Communicator"
+description = "A browser-based speculative communication device that listens for four spoken English commands and immediately translates them into distinct non-verbal tones using Web Speech and Web Audio APIs."
+version = "1.0.0"
+id = "artifacts/nonverbal-communicator"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22506
+
+[services.development]
+run = "pnpm --filter @workspace/nonverbal-communicator run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/nonverbal-communicator", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/nonverbal-communicator/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22506"
+BASE_PATH = "/"
